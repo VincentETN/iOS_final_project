@@ -11,6 +11,7 @@
 		BFB858A0266CA9BC007FB65E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB8589F266CA9BC007FB65E /* ContentView.swift */; };
 		BFB858A2266CA9BF007FB65E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB858A1266CA9BF007FB65E /* Assets.xcassets */; };
 		BFB858A5266CA9BF007FB65E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB858A4266CA9BF007FB65E /* Preview Assets.xcassets */; };
+		BFC0BC80266CACF700C29F2D /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0BC7F266CACF700C29F2D /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		BFB858A1266CA9BF007FB65E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFB858A4266CA9BF007FB65E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFB858A6266CA9BF007FB65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFC0BC7F266CACF700C29F2D /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +54,8 @@
 		BFB8589C266CA9BC007FB65E /* FoodRabbit */ = {
 			isa = PBXGroup;
 			children = (
+				BFC0BC7E266CAC8600C29F2D /* Views */,
 				BFB8589D266CA9BC007FB65E /* FoodRabbitApp.swift */,
-				BFB8589F266CA9BC007FB65E /* ContentView.swift */,
 				BFB858A1266CA9BF007FB65E /* Assets.xcassets */,
 				BFB858A6266CA9BF007FB65E /* Info.plist */,
 				BFB858A3266CA9BF007FB65E /* Preview Content */,
@@ -67,6 +69,15 @@
 				BFB858A4266CA9BF007FB65E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFC0BC7E266CAC8600C29F2D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BFB8589F266CA9BC007FB65E /* ContentView.swift */,
+				BFC0BC7F266CACF700C29F2D /* GameView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFB858A0266CA9BC007FB65E /* ContentView.swift in Sources */,
+				BFC0BC80266CACF700C29F2D /* GameView.swift in Sources */,
 				BFB8589E266CA9BC007FB65E /* FoodRabbitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
