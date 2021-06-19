@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF218DC0267DDC9400464919 /* OrderMission.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF218DBF267DDC9400464919 /* OrderMission.swift */; };
+		BF218DC3267DE1D900464919 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF218DC2267DE1D900464919 /* Shop.swift */; };
+		BF24D582267E7DE40002F46D /* BunnyBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF24D581267E7DE40002F46D /* BunnyBag.swift */; };
 		BFB8589E266CA9BC007FB65E /* FoodRabbitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB8589D266CA9BC007FB65E /* FoodRabbitApp.swift */; };
 		BFB858A0266CA9BC007FB65E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB8589F266CA9BC007FB65E /* ContentView.swift */; };
 		BFB858A2266CA9BF007FB65E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB858A1266CA9BF007FB65E /* Assets.xcassets */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF218DBF267DDC9400464919 /* OrderMission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderMission.swift; sourceTree = "<group>"; };
+		BF218DC2267DE1D900464919 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		BF24D581267E7DE40002F46D /* BunnyBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunnyBag.swift; sourceTree = "<group>"; };
 		BFB8589A266CA9BC007FB65E /* FoodRabbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodRabbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB8589D266CA9BC007FB65E /* FoodRabbitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRabbitApp.swift; sourceTree = "<group>"; };
 		BFB8589F266CA9BC007FB65E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +41,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF218DBE267DD83900464919 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BF218DBF267DDC9400464919 /* OrderMission.swift */,
+				BF218DC2267DE1D900464919 /* Shop.swift */,
+				BF24D581267E7DE40002F46D /* BunnyBag.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		BFB85891266CA9BC007FB65E = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +70,7 @@
 		BFB8589C266CA9BC007FB65E /* FoodRabbit */ = {
 			isa = PBXGroup;
 			children = (
+				BF218DBE267DD83900464919 /* Models */,
 				BFC0BC7E266CAC8600C29F2D /* Views */,
 				BFB8589D266CA9BC007FB65E /* FoodRabbitApp.swift */,
 				BFB858A1266CA9BF007FB65E /* Assets.xcassets */,
@@ -151,6 +168,9 @@
 			files = (
 				BFB858A0266CA9BC007FB65E /* ContentView.swift in Sources */,
 				BFC0BC80266CACF700C29F2D /* GameView.swift in Sources */,
+				BF218DC0267DDC9400464919 /* OrderMission.swift in Sources */,
+				BF24D582267E7DE40002F46D /* BunnyBag.swift in Sources */,
+				BF218DC3267DE1D900464919 /* Shop.swift in Sources */,
 				BFB8589E266CA9BC007FB65E /* FoodRabbitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
