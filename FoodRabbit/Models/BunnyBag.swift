@@ -14,7 +14,9 @@ class BunnyBag {
         self.goods.append(good)
     }
     // 交貨
-    func handIn() {
-        
+    func handIn() -> [String?] {
+        let temp : [String?] = self.goods
+        self.goods.removeAll()
+        return temp
     }
 }
