@@ -8,16 +8,21 @@
 import Foundation
 
 class OrderMission {
+    private var orderList: [String?] = []
     // 下訂單任務
-    func questAnOrder() {
-        
+    func questAnOrder(menu: [String]) {
+        self.orderList = menu
+    }
+    
+    func getOrderList() -> [String?] {
+        return orderList
     }
     // 核對訂單
-    func checkList() {
+    func checkList(items: [String?]) {
         
     }
     // 結束訂單
     func finishOrder() {
-        
+        orderList.removeAll()
     }
 }
